@@ -1,0 +1,50 @@
+.inputContainers {
+  display: flex;
+  justify-content: center;
+  flex-flow: row;
+  margin: 10px;
+  column-gap: 10px;
+  align-items: center;
+}
+
+.stock-symbol {
+  background-color: #abdca7;
+  color: #323232;
+  width: 150px;
+  height: 15px;
+  border-radius: 5px;
+  border-style: solid;
+  border-color: grey;
+  padding: 10px;
+}
+
+.stock-quantity,
+.purchase-price {
+  background-color: #abdca7;
+  color: #323232;
+  width: 150px;
+  height: 15px;
+  border-radius: 5px;
+  border-style: solid;
+  border-color: grey;
+  padding: 10px;
+}
+
+.add-stock-button {
+  background-color: #1f3f49;
+  color: white;
+  width: 115px;
+  height: 40px;
+  font-weight: bold;
+  border-radius: 5px;
+  border-style: solid;
+  border-color: grey;
+  padding: 10px;
+}
+
+.stock-item {
+  color: #323232;
+  font-size: 14px;
+  text-align: left;
+  margin: 10px;
+}
